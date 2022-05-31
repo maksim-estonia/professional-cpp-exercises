@@ -48,3 +48,5 @@ Modify the program from Exercise 2-2 and use `std::string_view` on as many place
 ### EX 4
 
 Write a program that asks the user to enter an unknown number of floating-point numbers and stores all numbers in a `vector`. Each number should be typed followed by Enter. Stop asking for more numbers when the user inputs the number 0. To read a floating-point number from console, use `cin`. Format all numbers in a couple of columns where each column formats a number in a different way. Each row in the table corresponds to one of the inputted numbers. 
+
+--> C++20 feature
