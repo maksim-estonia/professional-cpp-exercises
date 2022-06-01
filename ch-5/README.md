@@ -56,5 +56,22 @@ classDiagram
     Person <|-- Employee
     Employee <|-- Manager
     Manager "0..1" o-- "0..*" Employee : m_employees
-
+    class Person{
+        -m_name : string
+        -m_address : Address
+        -m_phone : PhoneNumber
+        +void call()
+    }
+    class Employee{
+        -m_id : int
+        -m_salary : Currency
+        -m_startDate : Date
+        +void fire()
+        +void promote()
+        +void demote()
+    }
+    class Manager{
+        -m_departmentName : string
+        -m_employees : vector~Employee~
+    }
 ```
